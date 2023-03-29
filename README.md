@@ -78,3 +78,4 @@ The Pre Filter Pass applies the pre filter to the image to rteduce any aliasing 
 
 The Bokeh Pass applies the CoC to the image and simulates the lens blur effect. It uses a disk shaped kernel with a configurable number of samples to create the blur effect. The kernel samples are based on the distance from the center of the disk, with closer samples having a greater impact on the final colour value. 
  
+The Depth of Field Shader can be used for a lot of things but it is mainly used for creating a lens camera effect to your scene. The DoF effect can add realism and depth to your game by blurring out areas that are not in focus, creating a more cinematic look. However, using a depth of field shader can be computationally expensive and can slow down the rendering process. Therefore, it is importnat to not overuse this effect and only use it when necessary. 
